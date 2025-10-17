@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+jinja2
+langchain
+openai
+python-dotenv
