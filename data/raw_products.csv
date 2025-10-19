@@ -1,0 +1,11 @@
+product_id,product_name,category,price,features,rating
+1,SmartLamp X10,Home Automation,59.99,"Voice control, dimmable light, energy saver",4.7
+2,SoundBeam Mini,Audio,129.99,"360-degree sound, Bluetooth 5.3, compact design",4.5
+3,AirBuds Lite,Audio,89.99,"Noise canceling, 24-hour battery life, USB-C charging",4.6
+4,HomeGuard Pro,Security,149.99,"Motion detection, Wi-Fi camera, night vision",4.8
+5,WorkMate Keyboard,Accessories,74.99,"Ergonomic keys, backlight, multi-device pairing",4.4
+6,FitBand 3,Health,99.99,"Heart rate monitor, sleep tracking, waterproof",4.5
+7,TempSmart Kettle,Kitchen,59.49,"Adjustable temperature, quick boil, auto shutoff",4.3
+8,PhotoSnap X,Photography,349.00,"Instant print, HD lens, wireless sharing",4.6
+9,SoundDock 2,Audio,159.99,"Portable speaker dock, bass boost, touch controls",4.5
+10,AirCool Breeze,Home,199.99,"Smart fan, air purification, app-controlled",4.7
