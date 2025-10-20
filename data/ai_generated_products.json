@@ -1,0 +1,72 @@
+[
+  {
+    "product_id":1,
+    "product_name":"SmartLamp X10",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":2,
+    "product_name":"SoundBeam Mini",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":3,
+    "product_name":"AirBuds Lite",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":4,
+    "product_name":"HomeGuard Pro",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":5,
+    "product_name":"WorkMate Keyboard",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":6,
+    "product_name":"FitBand 3",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":7,
+    "product_name":"TempSmart Kettle",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":8,
+    "product_name":"PhotoSnap X",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":9,
+    "product_name":"SoundDock 2",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  },
+  {
+    "product_id":10,
+    "product_name":"AirCool Breeze",
+    "meta_title":"",
+    "meta_description":"",
+    "product_description":""
+  }
+]
