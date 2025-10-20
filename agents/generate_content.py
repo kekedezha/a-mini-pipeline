@@ -1,6 +1,5 @@
-import os
-import re
 import json
+import re
 import sqlite3
 import pandas as pd
 from dotenv import load_dotenv
@@ -11,7 +10,6 @@ from langchain.schema import SystemMessage, HumanMessage
 
 # --- Load environment variables ---
 load_dotenv()
-openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # --- Initialize the LLM ---
 llm = ChatOpenAI(
@@ -41,6 +39,12 @@ for _, row in df.iterrows():
 
     print(f"🧠 Generating structured SEO output for: {product_name}")
 
+    # Convert product data to JSON string for prompt
+    product_json = json.dumps(product_data, indent=2)
+
+    # Format the prompt with product data
+    formatted_prompt = prompt.format(product_data=product_json)
+
     # Format input for the model
     messages = [
         SystemMessage(content="You are a helpful SEO assistant that always returns valid JSON."),
@@ -51,9 +55,6 @@ for _, row in df.iterrows():
         # --- Get model response ---
         response = llm.invoke(messages)
         ai_text = str(response.content).strip()  # safe cast to str for Pylance
-
-        # --- Debug: print raw output for troubleshooting ---
-        print(f"\nRaw output for {product_name}:\n{ai_text}\n{'-'*80}\n")
 
         # --- Clean model output (remove markdown, extract JSON only) ---
         cleaned = re.sub(r"```(?:json)?", "", ai_text)

@@ -10,4 +10,4 @@ You will receive structured product data and should return a single JSON object 
 Make sure the JSON is properly formatted and can be parsed directly.
 
 Input Data (JSON):
-{{ product_data }}
+{product_data}
