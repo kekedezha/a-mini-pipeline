@@ -23,11 +23,9 @@ a2-mini-pipeline/
 │       └── product_prompt.txt
 ├── data
 │   ├── ai_generated_products.json
-│   ├── cleaned_products.csv
 │   └── raw_products.csv
 ├── database
 │   ├── a2_pipeline.db
-│   ├── db_init.py
 │   └── load_data.py
 ├── html-export
 │   ├── airbuds_lite.html
@@ -46,10 +44,8 @@ a2-mini-pipeline/
 │   └── workmate_keyboard.html
 ├── main.py
 ├── requirements.txt
-├── tests
-│   └── test_database_load.py
-└── utils
-    └── helpers.py
+└── tests
+    └── test_database_load.py
 ```
 
 ## 🧩 How It Works
