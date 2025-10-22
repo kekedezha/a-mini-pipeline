@@ -1,11 +1,11 @@
 # 🧠 A Mini Pipeline
 
-A lightweight end-to-end demo inspired by **A2 Analytics’ AI-powered SEO workflow**.  
+A lightweight end-to-end demo inspired by **A* Analytics’ AI-powered SEO workflow**.  
 This project showcases how to transform raw structured data into optimized, publish-ready web content — fast.
 
 ## 🚀 Overview
 
-This pipeline simulates how A2 Analytics builds data-driven SEO content at scale:
+This pipeline simulates how A* Analytics builds data-driven SEO content at scale:
 
 1. **Data Ingestion** → Load and clean structured data (CSV → SQLite database).
 2. **AI Content Generation** → Use a LangChain-powered AI agent to create SEO-friendly meta titles, descriptions, and product blurbs.
@@ -15,7 +15,7 @@ This pipeline simulates how A2 Analytics builds data-driven SEO content at scale
 ## 🏗️ Project Structure
 
 ```bash
-a2-mini-pipeline/
+a*-mini-pipeline/
 ├── README.md
 ├── agents
 │   ├── generate_content.py
@@ -25,7 +25,7 @@ a2-mini-pipeline/
 │   ├── ai_generated_products.json
 │   └── raw_products.csv
 ├── database
-│   ├── a2_pipeline.db
+│   ├── a*_pipeline.db
 │   └── load_data.py
 ├── html-export
 │   ├── airbuds_lite.html
@@ -57,7 +57,7 @@ python3 database/load_data.py
 ```
 
 - Reads products.csv
-- Creates a2_pipeline.db
+- Creates a*_pipeline.db
 - Stores each product as a row in a products table
 
 ### 2️⃣ AI Content Generation
@@ -123,4 +123,4 @@ OPENAI_API_KEY=your_api_key_here
 Christian Dezha
 AI + Full Stack Engineer — Charlotte, NC
 
-Built this project as a hands-on exploration of A2 Analytics’ approach to scalable, AI-powered SEO systems.
+Built this project as a hands-on exploration of A* Analytics’ approach to scalable, AI-powered SEO systems.
